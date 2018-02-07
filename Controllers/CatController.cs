@@ -13,18 +13,18 @@ namespace MeowWorld.Controllers
         {
             switch (cat)
             {
-                case "winnie":
-                    return "Meow! Hiss! Meow!";
-                case "molly":
-                    return "Silent Purr. Silent Kill.";
-                case "dexter":
-                    return "Meow. Barf. Meow.";
-                case "kali":
-                    return "Meow. Meow. Meow. Hiss. Bite. Meow.";
-                case "jessie":
-                    return "Pounce. Purr. Pounce. Purr.";
-                case "murphy":
-                    return "Nom nom nom nom nom nom nom nom.";
+                case "b1":
+                    return "The Walkie-Talkie, London's most ugly building.";
+                case "b2":
+                    return "The Gherkin, the square mile, London.";
+                case "b3":
+                    return "Tower of London, on the banks of the Thames.";
+                case "b4":
+                    return "London Council Building, banks of the Thames near Tower Bridge.";
+                case "b5":
+                    return "Battersea Power Station.";
+                case "b6":
+                    return "The Shard, near London Bridge.";
             }
 
             return "No Such cat!";
