@@ -1,2 +1,1 @@
-# meowworldforum
-Forum demos around .NET and Patternfly
+Example RMG Webservices/RAZOR Application
