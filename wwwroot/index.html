@@ -132,7 +132,7 @@
 <body>
 
 <header class="container-fluid" align="right">
-  <p><img src="images/rmg1.png" width="100px"/></p>
+  <p><img src="images/rmg3.svg" width="100px"/></p>
 </header>
 
 <div class="container-fluid">
@@ -140,22 +140,22 @@
     <div class="col-sm-3 sidenav">
       <br/>
       <div width="100" align="center"><img src="images/red-hat-forum-emea-2017-logo.png" width="75%"></div>
-      <h4>MEOWWORLD OSCP Demo</h4>
+      <h4>Example RMG OSCP Demo</h4>
       Demos written in .NET and hosted on OpenShift container platform, showing an ASP.NET/Razor app and webservices.
       <br/><br/>
 
       <div align="center">
-        <img src="images/winnie.png" title="Winnie the Cat" onClick="catLookup('winnie');" width="50px">
-        <img src="images/jessie.png" title="Jessie the Kitten" onClick="catLookup('jessie');" width="50px">
-        <img src="images/murphy.png" title="Murphy the Kitten" onClick="catLookup('murphy');" width="50px"><br/>
-        <img src="images/molly.png" title="Molly the Hunter" onClick="catLookup('molly');" width="50px">
-        <img src="images/dexter.png" title="Dexter the Ginger" onClick="catLookup('dexter');" width="50px">
-        <img src="images/kali.png" title="Kali the Cat" onClick="catLookup('kali');" width="50px"> 
+        <img src="images/building1.jpg" title="Building1" onClick="catLookup('b1');" width="50px">
+        <img src="images/building2.jpg" title="Building2" onClick="catLookup('b2');" width="50px">
+        <img src="images/building3.jpg" title="Building3" onClick="catLookup('b3');" width="50px"><br/>
+        <img src="images/building4.jpg" title="Building4" onClick="catLookup('b4');" width="50px">
+        <img src="images/building5.jpg" title="Buidling5" onClick="catLookup('b5');" width="50px">
+        <img src="images/building6.jpg" title="Building6" onClick="catLookup('b6');" width="50px"> 
       </div>
       <br/><br/>
 
       <div class="input-group">
-        <input type="text" class="form-control" id="catName" placeholder="Enter a Cat name...">
+        <input type="text" class="form-control" id="catName" placeholder="Select a building (b1..b6)">
         <span class="input-group-btn">
           <button class="btn btn-default" type="button" onClick="catLookup(document.getElementById('catName').value);">
             <span class="glyphicon glyphicon-search"></span>
@@ -165,28 +165,11 @@
     </div>
 
     <div class="col-sm-9">
-      <h2>Output from Meow-world .NET Webservices</h2>
+      <h2>Output from RMG Example .NET Webservices</h2>
       <h5><span class="glyphicon glyphicon-time"></span> Last called <b><span id="webserviceCalled">(not called)</span></b>.</h5>
       <h5><span class="glyphicon glyphicon-time"></span> Webservice response time <b><span id="webserviceElapsed">(not called)</span></b></h5>
-      <h5><span class="label label-success" id="bulletInfo">(No Cat Chosen)</span></h5><br>
+      <h5><span class="label label-success" id="bulletInfo">(No Building Chosen)</span></h5><br>
       <span id="catOutputSpan"></span>
-      
-      <hr>
-      <h2>Output from direct Webservices.</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Last called <b><span id="webservice2Called">(not called)</span></b>.</h5>
-      <h5><span class="glyphicon glyphicon-time"></span> Webservice response time <b><span id="webservice2Elapsed">(not called)</span></b></h5>
-      <h5><span id="targeturl" class="label label-success">No URL Entered</span></h5><br>
-      <p class="webserviceoutput" id="webserviceOutput">Response from Webservice.</p>
-      <hr>
-
-      <h4>Enter a URL for a cat Webservice:</h4>
-      <form role="form">
-        <div class="form-group">
-          <textarea class="form-control" id="wsurl" rows="1" placeholder="Enter fully formed Webservice URL here..." required></textarea>
-        </div>
-        <button type="button" class="btn btn-success" onClick="callService(document.getElementById('wsurl').value);">Call the Webservice Manually.</button>
-      </form>
-      <br><br>
     </div>
   </div>
 </div>
